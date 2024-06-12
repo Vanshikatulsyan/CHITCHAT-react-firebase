@@ -120,9 +120,13 @@
         background-color: rgba(25, 28, 70, 0.799);
         border: none;
         overflow: none;
+        color: white;
         border-radius: 10px;
        padding: 20px;
        font-size: 16px;
+       &:disabled{
+        cursor: not-allowed ;
+       }
     }
     .emoji{
         position: relative;
@@ -133,12 +137,16 @@
         }
     }
   .sendButton{
-    padding: 15px;
+    padding: 10px 20px;
     background-color: rgb(36, 41, 108);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    &:disabled{
+        background-color:rgba(36, 41, 108, 0.767) ;
+        cursor: not-allowed;
+    }
   }
 }
 }

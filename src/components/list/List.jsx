@@ -7,7 +7,7 @@ const List = () => {
         <Userinfo/>
         <ChatList/>
         </div>
-    );
-};
+    )
+}
 
 export default List
