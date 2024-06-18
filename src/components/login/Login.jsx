@@ -6,8 +6,15 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { auth, db } from "../../lib/firebase";
-import { doc, setDoc } from "firebase/firestore";
 import upload from "../../lib/upload";
+import {
+  collection,
+  doc,
+setDoc,
+  getDocs,
+  query,
+  setDocs,
+  where,} from "firebase/firestore";
 
 const Login = () => {
   const [avatar, setAvatar] = useState({
