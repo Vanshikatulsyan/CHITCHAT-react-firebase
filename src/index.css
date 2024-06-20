@@ -5,26 +5,26 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-body{
-  background-image:url("/bg.jpg") ;
+body {
+  background-image: url("/bluebg.jpg");
   display: flex;
- align-items:center;
- justify-content: center;
- height: 100vh;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   color: rgb(253, 248, 248);
 }
-.container{
+.container {
   width: 80vw;
-  height: 90vh;
+  height: 100vh;
   align-items: centre;
   justify-content: centre;
   border-radius: 12px;
   background-color: rgba(9, 13, 49, 0.716);
   backdrop-filter: blur(20px) saturate(180%);
-  border:1px solid rgba(255, 255, 255, 0.17) ;
+  border: 1px solid rgba(56, 48, 57, 0.345);
   display: flex;
 }
-.loading{
+.loading {
   padding: 50px;
   font-size: 36px;
   border-radius: 10px;
