@@ -1,5 +1,3 @@
-# CHITCHAT Chat App Starter template
-Suggested README.md Template
 # React Firebase Real-Time Chat App
 
 A real-time chat application built with **React** and **Firebase**.
@@ -16,7 +14,6 @@ A real-time chat application built with **React** and **Firebase**.
 - **Frontend**: React (using create-react-app, function components, hooks)  
 - **Backend**: Firebase (Realtime Database or Firestore)  
 - **Authentication**: Firebase Auth (Google Sign-In)  
-- **Deployment**: (e.g., Firebase Hosting or similar)
 
 ## Demo
 
