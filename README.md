@@ -18,9 +18,9 @@ A real-time chat application built with **React** and **Firebase**.
 - **Authentication**: Firebase Auth (Google Sign-In)  
 - **Deployment**: (e.g., Firebase Hosting or similar)
 
-## Screenshots
+## Demo
 
-(https://github.com/Vanshikatulsyan/CHITCHAT-react-firebase/assets/119696625/340563b7-82bf-4f13-a62b-67be3adf5004)
+https://github.com/Vanshikatulsyan/CHITCHAT-react-firebase/assets/119696625/340563b7-82bf-4f13-a62b-67be3adf5004
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ A real-time chat application built with **React** and **Firebase**.
    cd <project-directory>
 
 
-Install dependencies:
+### Install dependencies:
 
 npm install
 
@@ -67,11 +67,11 @@ const db = getDatabase(app); // or getFirestore(app);
 export { auth, db };
 
 
-Run the app locally:
+### Run the app locally:
 
 npm start
 
-Usage
+### Usage
 
 Create an account or sign in via Google
 
